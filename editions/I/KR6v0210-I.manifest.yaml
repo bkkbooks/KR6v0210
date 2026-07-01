@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6v0210/I/v1
+canonical_location: https://kanripo.org/bkk/KR6v0210/I/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 馮神育等二百廿人造像碑
+  identifiers:
+    krp: KR6v0210
+    cbeta: I01n0011
+    cbeta_old_id: I01n0011
+    authorityid: CA0008146
+    json_key: I0011
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0011.xml
+    old_id: I01n0011
+  edition:
+    short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0210_000-I.yaml, hash: 'sha256:c0830cfc85480112aaa4cf3242f764d3b7fc9ae9584067594d89585359407e84'}
+  - {seq: 1, filename: KR6v0210_001-I.yaml, hash: 'sha256:9a780e08c2b721c10903026ddd065b9b3d3da8f91d052c4569a3530aa47bb1a9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0210_000-I.markers.yaml, hash: 'sha256:876c194549af430384c09adc305e5745df2e8ab2422b388beca9cb398bf8d64f'}
+  - {seq: 1, role: markers, filename: assets/KR6v0210_001-I.markers.yaml, hash: 'sha256:ada62dfb5affe52fa00635ceffcc9d3a0ccca4f3bd3c6209923e4f9d47c98a0d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0210_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 956
+  label: 馮神育等二百廿人造像碑
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0210_I_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 之一　碑陽
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0210_I_001-mulu-2
+    span:
+    - body
+    - 310
+    - 310
+  label: 之二　碑陰
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0210_I_001-mulu-3
+    span:
+    - body
+    - 498
+    - 498
+  label: 之三　碑側
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0210_I_001-mulu-4
+    span:
+    - body
+    - 681
+    - 681
+  label: 之四　碑側
+  type: mulu
+  level: 1
+hash: sha256:c833652fc96426c3a3682c61b3f0c2f0605429a32f4ff0ac0b00e05b4c15a27b

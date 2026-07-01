@@ -1,0 +1,82 @@
+canonical_identifier: bkk:krp/KR6v0210/v1
+canonical_location: https://kanripo.org/bkk/KR6v0210/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 馮神育等二百廿人造像碑
+  identifiers:
+    alt_id:
+    - I01n0011
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0011.xml
+    old_id: I01n0011
+  edition:
+    short: bkk
+editions:
+- short: 佛拓
+  label: 佛拓
+  source_xml_id: wit.orig
+- short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0210_000.yaml, hash: 'sha256:c0830cfc85480112aaa4cf3242f764d3b7fc9ae9584067594d89585359407e84'}
+  - {seq: 1, filename: KR6v0210_001.yaml, hash: 'sha256:0b57e54f2fb95d08c9bce65d898a713a3ef9ae06199ceba7fcf6be95eefc5a66'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0210_001.markers.yaml, hash: 'sha256:596b689935f65774c9a0be11538bc5907bae6ea6173c7941d8a98b986f68bce5'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0210_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 956
+  label: 馮神育等二百廿人造像碑
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0210_I_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 之一　碑陽
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0210_I_001-mulu-2
+    span:
+    - body
+    - 310
+    - 310
+  label: 之二　碑陰
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0210_I_001-mulu-3
+    span:
+    - body
+    - 498
+    - 498
+  label: 之三　碑側
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0210_I_001-mulu-4
+    span:
+    - body
+    - 681
+    - 681
+  label: 之四　碑側
+  type: mulu
+  level: 1
+hash: sha256:a14f89828397b99a99f6108682593d3994657715f8d2de46645dc41bf6736f47
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

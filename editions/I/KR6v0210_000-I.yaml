@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6v0210/i/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 馮神育等二百廿人造像碑
+  edition:
+    short: i
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0011.xml
+    old_id: I01n0011
+hash: sha256:c0830cfc85480112aaa4cf3242f764d3b7fc9ae9584067594d89585359407e84
