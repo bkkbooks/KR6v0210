@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6v0210/v1
 canonical_location: https://kanripo.org/bkk/KR6v0210/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 馮神育等二百廿人造像碑
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0210_000.yaml, hash: 'sha256:c0830cfc85480112aaa4cf3242f764d3b7fc9ae9584067594d89585359407e84'}
-  - {seq: 1, filename: KR6v0210_001.yaml, hash: 'sha256:9a780e08c2b721c10903026ddd065b9b3d3da8f91d052c4569a3530aa47bb1a9'}
+  - {seq: 1, filename: KR6v0210_001.yaml, hash: 'sha256:ea161df7b19704051f43cccba097e1363dc9d26b07306cc90ca84411dd5835f4'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6v0210_000.markers.yaml, hash: 'sha256:52725ff3a8241794f995ecbada4231477d0c897f9cbfe157c2e0cd632e6b8d56'}
-  - {seq: 1, role: markers, filename: assets/KR6v0210_001.markers.yaml, hash: 'sha256:5002db1325d4161dda2c2b3602e22ab0e22be9ed38cd5cee2b591a3cb63585f5'}
+  - {seq: 1, role: markers, filename: assets/KR6v0210_001.markers.yaml, hash: 'sha256:b9eaf7525c064273e04749516c5e422492e4a0d6ce12b6501554d75b2e6c579a'}
 table_of_contents:
 - ref:
     seq: 1
@@ -77,4 +77,7 @@ table_of_contents:
   label: 之四　碑側
   type: mulu
   level: 1
-hash: sha256:a23e2978d1da435cff9a1765f298b4250ed6272a4392b8f5a725f330343f3767
+hash: sha256:279d31c5bfb2ac311caec893ce7ed0a3c38638d2f6ac46e846c9180996437377
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
